@@ -1,0 +1,59 @@
+#======================================#
+#========== Server settings ===========#
+#======================================#
+server:
+  port: 5001
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+
+
+#======================================#
+#========== Spring settings ===========#
+#======================================#
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  # 应用程序名称
+  application:
+    name: laymat.dubbo.provider
+
+  # 当前环境名称（注意：不可设置为 test 它是单元测试专用的名称）
+  profiles:
+    active: default
+
+
+#======================================#
+#========== actuator settings ===========#
+#======================================#
+# info 配置项（/actuator/info）
+info:
+  author: laymat
+  email: laymat@163.com
+  version: 1.0.0
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+  server:
+    port: 8810
+#======================================#
+#========== dubbo settings ===========#
+#======================================#
+dubbo:
+  server: true
+  scan:
+    base-packages: com.laymat.dubbo.provider
+  application:
+    id: dubbo-provider
+    name: dubbo-provider
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
