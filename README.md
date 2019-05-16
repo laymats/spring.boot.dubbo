@@ -10,9 +10,7 @@ dubbo: 2.7+
 >> dubbo-template (root项目)
 >>> modules
 >>>> api-framework (公共库)
-<br/>
 >>>> dubbo-porivuder (服务提供者)
-<br/>
 >>>> dubbo-consumer (服务消费者)
 
 #template 介绍
