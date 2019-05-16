@@ -24,7 +24,7 @@ dubbo: 2.7+
 <img src="/git-img/0002.jpg">
 
 然后加载本项目至idea环境，先启动dubbo-porivuder项目，启动完毕后，再启动dubbo-consumer项目，两个项目
-都启动成功后，请求url[http://127.0.0.1:5002/order?orderID=1111]测试，如果测试出现如下结果，则表示
+都启动成功后，请求url [http://127.0.0.1:5002/order?orderID=1111] 测试，如果测试出现如下结果，则表示
 项目启动成功。
 <img src="/git-img/0001.png">
 
