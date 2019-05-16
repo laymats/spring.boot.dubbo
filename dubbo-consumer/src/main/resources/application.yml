@@ -1,0 +1,20 @@
+
+#======================================#
+#========== Server settings ===========#
+#======================================#
+server:
+  port: 5002
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+
+dubbo:
+  application:
+    id: dubbo-consumer
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
