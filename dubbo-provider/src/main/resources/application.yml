@@ -15,11 +15,8 @@ server:
 spring:
   main:
     allow-bean-definition-overriding: true
-  # 应用程序名称
   application:
     name: laymat.dubbo.provider
-
-  # 当前环境名称（注意：不可设置为 test 它是单元测试专用的名称）
   profiles:
     active: default
 
@@ -27,7 +24,7 @@ spring:
 #======================================#
 #========== actuator settings ===========#
 #======================================#
-# info 配置项（/actuator/info）
+# info
 info:
   author: laymat
   email: laymat@163.com

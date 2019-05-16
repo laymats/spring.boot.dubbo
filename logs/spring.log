@@ -77,3 +77,44 @@
 2019-05-16 11:34:29.775  INFO 2136 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: CONNECTED
 2019-05-16 11:34:29.883  INFO 2136 --- [main] c.l.d.provider.DubboProviderApplication  : Started DubboProviderApplication in 1.65 seconds (JVM running for 2.565)
 2019-05-16 11:34:29.887  INFO 2136 --- [pool-1-thread-1] .b.c.e.AwaitingNonWebApplicationListener :  [Dubbo] Current Spring Boot Application is await...
+2019-05-16 14:10:02.913  WARN 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 2346933ms for sessionid 0x100008b1899003c
+2019-05-16 14:10:02.933  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 2346933ms for sessionid 0x100008b1899003c, closing socket connection and attempting reconnect
+2019-05-16 14:10:03.035  INFO 2136 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-05-16 14:10:03.382  WARN 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 2346932ms for sessionid 0x100008b1899003d
+2019-05-16 14:10:03.382  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 2346932ms for sessionid 0x100008b1899003d, closing socket connection and attempting reconnect
+2019-05-16 14:10:03.485  INFO 2136 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-05-16 14:10:04.373  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server activate.navicat.com/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-05-16 14:10:04.374  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to activate.navicat.com/127.0.0.1:2181, initiating session
+2019-05-16 14:10:04.376  WARN 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x100008b1899003c has expired
+2019-05-16 14:10:04.376  INFO 2136 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-05-16 14:10:04.377  WARN 2136 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-05-16 14:10:04.377  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x100008b1899003c has expired, closing socket connection
+2019-05-16 14:10:04.378  INFO 2136 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@70f822e
+2019-05-16 14:10:04.380  INFO 2136 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down for session: 0x100008b1899003c
+2019-05-16 14:10:04.381  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server activate.navicat.com/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-05-16 14:10:04.382  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to activate.navicat.com/127.0.0.1:2181, initiating session
+2019-05-16 14:10:04.493  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server activate.navicat.com/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-05-16 14:10:04.494  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to activate.navicat.com/127.0.0.1:2181, initiating session
+2019-05-16 14:10:04.495  WARN 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x100008b1899003d has expired
+2019-05-16 14:10:04.495  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x100008b1899003d has expired, closing socket connection
+2019-05-16 14:10:04.496  INFO 2136 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-05-16 14:10:04.496  WARN 2136 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-05-16 14:10:04.496  INFO 2136 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@43bf5397
+2019-05-16 14:10:04.497  INFO 2136 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down for session: 0x100008b1899003d
+2019-05-16 14:10:04.498  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server activate.navicat.com/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-05-16 14:10:04.498  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to activate.navicat.com/127.0.0.1:2181, initiating session
+2019-05-16 14:10:05.045  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server activate.navicat.com/127.0.0.1:2181, sessionid = 0x100008b18990040, negotiated timeout = 40000
+2019-05-16 14:10:05.046  INFO 2136 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-05-16 14:10:05.046  INFO 2136 --- [main-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server activate.navicat.com/127.0.0.1:2181, sessionid = 0x100008b18990041, negotiated timeout = 40000
+2019-05-16 14:10:05.046  INFO 2136 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-05-16 14:17:42.048  INFO 2136 --- [Thread-1] .b.c.e.AwaitingNonWebApplicationListener :  [Dubbo] Current Spring Boot Application is about to shutdown...
+2019-05-16 14:17:42.075  INFO 2136 --- [Curator-Framework-0] o.a.c.f.imps.CuratorFrameworkImpl        : backgroundOperationsLoop exiting
+2019-05-16 14:17:42.100  INFO 2136 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down for session: 0x100008b18990041
+2019-05-16 14:17:42.100  INFO 2136 --- [Thread-1] org.apache.zookeeper.ZooKeeper           : Session: 0x100008b18990041 closed
+2019-05-16 14:17:42.107  INFO 2136 --- [Thread-1] o.a.c.f.imps.CuratorFrameworkImpl        : Starting
+2019-05-16 14:17:42.108  INFO 2136 --- [Thread-1] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@55b0ee7a
+2019-05-16 14:17:42.111  INFO 2136 --- [Thread-1-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server activate.navicat.com/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-05-16 14:17:42.111  INFO 2136 --- [Thread-1-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to activate.navicat.com/127.0.0.1:2181, initiating session
+2019-05-16 14:17:42.132  INFO 2136 --- [Thread-1-SendThread(activate.navicat.com:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server activate.navicat.com/127.0.0.1:2181, sessionid = 0x100008b18990044, negotiated timeout = 40000
+2019-05-16 14:17:42.132  INFO 2136 --- [Thread-1-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: CONNECTED
+2019-05-16 14:17:42.173  INFO 2136 --- [Thread-1] f.a.ReferenceAnnotationBeanPostProcessor : class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
